@@ -11,8 +11,8 @@ class Person:
         self.dialog = dialog
         self.time = time
 
-    def talk(dialog):
-        print(f"{people.name}: {people.dialog}")
+    def talk(self):
+        print(f"{self.name}: {self.dialog}")
 
 
 def create_dialog():
